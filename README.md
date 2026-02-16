@@ -1,16 +1,55 @@
-# React + Vite
+# 🥘 Hyscaler Recipe Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive Recipe Management Application built for the **Hyscaler Internship Assessment**. This application allows users to search for recipes, filter by category, view detailed cooking instructions, and manage a personalized list of favorite meals.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** [Click Here to View App](https://rococo-puffpuff-a7b4de.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Home Screenshot] <img width="1279" height="888" alt="image" src="https://github.com/user-attachments/assets/de058223-57cb-455f-8d57-de2e76d73190" />
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **🔍 Smart Recipe Search:** Real-time search functionality powered by TheMealDB API.
+* **📂 Category Filtering:** Filter recipes by categories like Chicken, Vegetarian, Breakfast, Dessert, etc.
+* **📝 Detailed Recipe View:** View ingredients, measurements, and step-by-step cooking instructions.
+* **❤️ Favorites Management:** Save your favorite recipes to a personalized list (Local Storage with User Session).
+* **🔐 Secure Authentication:** User login system to protect favorite lists and personalize the experience.
+* **📱 Fully Responsive:** Optimized for Desktop, Tablet, and Mobile devices.
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Frontend:** React.js (Vite)
+* **Styling:** Tailwind CSS
+* **Icons:** Lucide React
+* **Authentication:** Custom Auth Logic (Ready for Firebase Integration)
+* **API:** TheMealDB API
+
+## ⚙️ Installation & Setup
+
+If you want to run this project locally:
+
+1.  **Clone the repository**
+    ```bash
+    git clone [https://github.com/debasishsasmal/hyscaler-recipe-finder.git](https://github.com/debasishsasmal/hyscaler-recipe-finder.git)
+    cd hyscaler-recipe-finder
+    ```
+
+2.  **Install Dependencies**
+    ```bash
+    npm install
+    ```
+
+3.  **Run the Server**
+    ```bash
+    npm run dev
+    ```
+
+## 🎯 Assessment Checklist
+
+- [x] **User Profile:** implemented Login/Logout functionality.
+- [x] **Recipe Database:** Integrated external API for real-time data.
+- [x] **Search & Filter:** Added search bar and category tabs.
+- [x] **Recipe Management:** implemented "Add to Favorites" feature.
+- [x] **Responsive Design:** Mobile-friendly UI.
+
+---
+*Developed by Debasish Sasmal for Hyscaler Internship Task.*
