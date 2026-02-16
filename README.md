@@ -4,7 +4,7 @@ A modern, responsive Recipe Management Application built for the **Hyscaler Inte
 
 🔗 **Live Demo:** [Click Here to View App](https://rococo-puffpuff-a7b4de.netlify.app/)
 
-![Home Screenshot] <img width="1279" height="888" alt="image" src="https://github.com/user-attachments/assets/de058223-57cb-455f-8d57-de2e76d73190" />
+Home Screenshot <img width="1279" height="888" alt="image" src="https://github.com/user-attachments/assets/de058223-57cb-455f-8d57-de2e76d73190" />
 
 ## 🚀 Features
 
